@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/activites.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -21,7 +23,9 @@
         <header>
             <nav>
                 <div class="nav_logo">
-                    <img id="logo" src="/images/logo/Logo.png" alt="logo">
+                    <a href="#">
+                        <img id="logo" src="/images/logo/Logo.png" alt="logo">
+                    </a>
                 </div>
                 <div class="nav_menu">
                     <ul id="menu">
@@ -37,7 +41,9 @@
                     <h1>
                         Trouvez votre hébergement pour des vacances de rêve
                     </h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
+                    <p>
+                        En plein centre-ville ou en pleine nature
+                    </p>
                 </div>
                 <div class="formulaire-recherche">
                     <div class="formulaire-recherche-position">
@@ -268,13 +274,104 @@
                     </div>
                 </section>
             </div>
-            <div class="activités">
-                <section>
-                    <h2>Activités</h2>
-                </section>
+            <div class="activites">
+                <h2 class="activites-titre">Activités à Marseille</h2>
+                <div class="activites-cards">
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/reno-laithienne.jpg" alt="Image du vieux-port">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">
+                                        Vieux-Port
+                                    </h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/paul-hermann.jpg" alt="Image du fort de pomègues">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">
+                                        Fort de Pomègues
+                                    </h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/kilyan-sockalingum.jpg" alt="Image des calanques">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">
+                                        Parc national des Calanques
+                                    </h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/florian-wehde.jpg" alt="Image de notre-dame-de-la-garde">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">
+                                        Notre-Dame-de-la-Garde
+                                    </h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer">
+                <h2 class="footer-title">
+                    À propos
+                </h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">Fonctionnement du site</a>
+                    </li>
+                    <li>
+                        <a href="#">Conditions générales</a>
+                    </li>
+                    <li>
+                        <a href="#">Données et confidentialité</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <h2 class="footer-title">
+                    Nos hébergements
+                </h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">Charte qualité</a>
+                    </li>
+                    <li>
+                        <a href="#">Proposer votre hôtel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <h2 class="footer-title">
+                    Assistance
+                </h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">Centre d’aide</a>
+                    </li>
+                    <li>
+                        <a href="#">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 

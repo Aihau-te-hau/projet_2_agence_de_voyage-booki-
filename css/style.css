@@ -63,6 +63,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -148,6 +149,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* ici la partie qui posait pb */
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.populaires-cards a {
+    display: flex;
+    flex-direction: column;
+    height: 34%;
 }
 
 .populaires-cards .card {

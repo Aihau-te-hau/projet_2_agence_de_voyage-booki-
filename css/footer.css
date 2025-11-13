@@ -1,0 +1,28 @@
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    margin-top: 35px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    flex: 1;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+    gap: 15px;
+}
