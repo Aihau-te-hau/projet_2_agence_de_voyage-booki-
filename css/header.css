@@ -1,5 +1,5 @@
 header {
-    height: 79px;
+    /* height: 79px; inutile */
     margin-bottom: 35px;
 }
 
@@ -45,9 +45,23 @@ nav {
 
     .nav_logo {
         align-self: center;
+        margin: 30px;
     }
 
     .nav_menu {
+        justify-content: center;
+        padding: 0;
+    }
+
+    #menu {
+        flex: 1;
+        gap: 0;
+        padding-left: 0;
+    }
+
+    #menu li {
+        display: flex;
+        width: 100%;
         justify-content: center;
     }
 

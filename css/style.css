@@ -22,6 +22,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px; /* min de taille d'écran */
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -71,6 +72,14 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+}
+
+.hebergements {
+    order: 1;
+}
+
+.populaires {
+    order: 2;
 }
 
 /****** Hebergements ***********/
@@ -244,5 +253,49 @@ a {
     .main-container {
         width: 100%;
         padding: 0;
+    }
+
+    .hebergements {
+        gap: 15px;
+        background-color: white !important;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hebergements-cards a {
+        width: 100%;
+    }
+
+    .hebergements-cards .card {
+        margin-top: 0;
+    }
+
+    .hebergements-titre-tertiaire {
+        margin-top: 0;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires {
+        order: 1;
+        margin-top: 35px;
+    }
+    .hebergements {
+        order: 2;
     }
 }

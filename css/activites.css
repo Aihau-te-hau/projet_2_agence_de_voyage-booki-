@@ -19,7 +19,6 @@
 .activites a {
     display: flex;
     flex-direction: column;
-    height: 439px;
     width: 25%;
 }
 
@@ -43,4 +42,20 @@
 
 .activites-cards .card-content {
     padding: 20px 19px;
+}
+
+@media (max-width: 1024px) {
+    .activites-cards img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .activites-cards {
+        flex-direction: column;
+    }
+
+    .activites-cards a {
+        width: 100%;
+    }
 }
