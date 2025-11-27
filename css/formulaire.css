@@ -109,6 +109,10 @@
     display: none;
 }
 
+input::placeholder {
+    color: black;
+}
+
 @media (max-width: 1024px) {
     .formulaire-filtres {
         flex-direction: column;
