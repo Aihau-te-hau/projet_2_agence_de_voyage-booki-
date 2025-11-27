@@ -131,6 +131,7 @@
     }
 
     .cta-filtre {
+        width: 45%;
         flex: 1;
     }
 
