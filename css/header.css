@@ -68,6 +68,9 @@ nav {
     #menu a {
         padding-top: 0;
         padding-bottom: 15px;
+        border-bottom: 2px solid transparent;
+        width: 100%;
+        text-align: center;
     }
 
     #menu a:hover {
